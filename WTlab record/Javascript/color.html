@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <style>
+         #box
+          {
+            text-align: center;
+            border-style: solid;
+          }
+    </style>
+    <body>
+        <p id="box">welcome</p>
+        <div>
+        <input type="radio" name="color" id="red">red</input>
+        <input type="radio" name="color" id="green">green</input>
+        <input type="radio" name="color" id="blue">blue</input>
+        </div>
+    </body>
+    <script>
+        document.getElementById("red").onclick=function()
+        {
+            document.getElementById("box").style.backgroundColor="red";  
+        };
+        document.getElementById("green").onclick=function()
+        {
+            document.getElementById("box").style.backgroundColor="green";
+        };
+        document.getElementById("blue").onclick=function()
+        {
+            document.getElementById("box").style.backgroundColor="skyblue";
+        };
+    </script>
+</hmtl>

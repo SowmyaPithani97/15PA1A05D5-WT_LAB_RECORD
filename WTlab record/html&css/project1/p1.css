@@ -1,0 +1,60 @@
+body
+{
+    background-color:white;
+    margin: 0em;
+}
+span{
+    color: cyan;
+}
+header
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-left:30px;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    opacity:0.5;
+    
+}
+.pic{
+    background-image: url('bg.jpg');
+    background-repeat: no repeat;
+    background-size: cover;
+    border-top: 3px solid deeppink;
+}
+a
+{
+    color:cyan;
+    text-decoration: none;
+    display:inline-block;
+    border-bottom: 2px solid cyan;
+}
+#i2
+{
+    padding-left: 300px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#i3
+{
+    color:white;
+    background-color:deeppink;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#i4
+{
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    color:white;
+    padding-left:300px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    background-color:#505050;
+
+}

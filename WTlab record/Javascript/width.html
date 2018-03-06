@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="p1">Sowmya</p>
+    </body>
+    <script>
+        window.onresize=function()
+        {
+          myWidth=window.innerWidth;
+          myHeight=window.innerHeight;
+          document.getElementById("p1").innerHTML=myWidth+"x"+myHeight;
+        };
+    </script>
+</html>
